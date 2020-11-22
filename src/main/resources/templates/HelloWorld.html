@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <link th:href="@{/css/main.css}" rel="stylesheet">
+    <script type="text/javascript" th:src="@{/js/action.js}"></script>
+</head>
+<body>
+
+<h1 th:text="'Jooo: '+${message}+ ' word.'"></h1>
+
+
+
+
+<button th:id="b" type="button" th:onclick="demo()">click this</button>
+
+</body>
+</html>
